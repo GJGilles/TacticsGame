@@ -5,6 +5,9 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Data", menuName = "ScriptableObjects/UnitObject", order = 0)]
 public class UnitObject : ScriptableObject
 {
+    public string title = "";
+    public bool npc = false;
+
     public int hpBase;
     public int hpCurrent;
 
